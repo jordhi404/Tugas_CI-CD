@@ -12,6 +12,14 @@
 	</dependency>
 </dependencies>
   
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub jordhi404 Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/jordhi404/Tugas_CI-CD</url>
+   </repository>
+</distributionManagement>
+	
   <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
      <maven.compiler.target>1.8</maven.compiler.target>
